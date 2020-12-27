@@ -8,6 +8,11 @@ namespace TemplateCar
         static void Main(string[] args)
         {
             CarMaking carMaking = new Pickup();
+            carMaking.Make();
+            Console.WriteLine();
+
+            carMaking = new Bus();
+            carMaking.Make();
         }
     }
 }

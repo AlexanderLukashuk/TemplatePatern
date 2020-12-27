@@ -4,6 +4,16 @@ namespace TemplateCar.Models
 {
     public abstract class CarMaking
     {
+        public void Make()
+        {
+            GetName();
+            AddBox();
+            AddWheels();
+            AddMotor();
+            AddBody();
+            GetReadyCar();
+        }
+
         public abstract string Name { get; }
         public abstract void GetName();
         public abstract void AddBox();
